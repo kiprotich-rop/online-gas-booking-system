@@ -1,0 +1,141 @@
+.services{
+    background-color: beige;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+    .services-header{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+        
+    }
+
+    .sevices-section{
+        background-color: rgb(242, 236, 247);
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        box-shadow: 12px 15px 12px 15px rgba(0,0,0,.1);
+        row-gap: 15px;
+        column-gap: 15px;
+        border-radius: 5px;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    @media ( max-width:1000px){
+        .sevices-section{
+            background-color: rgb(242, 236, 247);
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            box-shadow: 12px 15px 12px 15px rgba(0,0,0,.1);
+            row-gap: 15px;
+            column-gap: 15px;
+            border-radius: 5px;
+            margin-right: 80px;
+            margin-left: 80px;
+            margin-top: 10px;
+        }
+    }
+        @media(max-width:740px){
+            .sevices-section{
+                background-color: rgb(242, 236, 247);
+                display:grid;
+                grid-template-columns: 1fr;
+                box-shadow: 12px 15px 12px 15px rgba(0,0,0,.1);
+                row-gap: 15px;
+                column-gap: 15px;
+                border-radius: 5px;
+                margin-right: 130px;
+                margin-left: 130px;
+                margin-top: 10px;
+            }
+        }
+        @media(max-width:570px){
+            .sevices-section{
+                background-color: rgb(242, 236, 247);
+                display:grid;
+                grid-template-columns: 1fr;
+                box-shadow: 12px 15px 12px 15px rgba(0,0,0,.1);
+                row-gap: 15px;
+                column-gap: 15px;
+                border-radius: 5px;
+                margin-right: 50px;
+                margin-left: 50px;
+                margin-top: 10px;
+            }
+        }
+        @media(max-width:330px){
+            .sevices-section{
+                background-color: rgb(242, 236, 247);
+                display:grid;
+                grid-template-columns: 1fr;
+                box-shadow: 12px 15px 12px 15px rgba(0,0,0,.1);
+                row-gap: 15px;
+                column-gap: 15px;
+                border-radius: 5px;
+                margin-right: 20px;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+  
+        
+  
+    }
+    @media(max-width:250px){
+        .sevices-section{
+            background-color: rgb(242, 236, 247);
+            display:grid;
+            grid-template-columns: 1fr;
+            box-shadow: 12px 15px 12px 15px rgba(0,0,0,.1);
+            row-gap: 15px;
+            column-gap: 15px;
+            border-radius: 5px;
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+  
+    
+  
+  }
+        .services-content{
+            box-shadow: 10px 12px 10px 12px rgba(0,0,0,.1);
+            height:auto;
+            background-color: rgb(255, 255, 255);
+            border-radius: 7px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            outline:auto rgb(246, 252, 246);
+            padding: .2rem .2rem;
+        }
+        .services-content h1{
+                font-size: 20px;
+                text-align: center;
+                margin-top: 0px;
+                padding: 1rem .1rem;
+                background-color: rgbx(138, 206, 174);
+                border-radius: 4px;
+                background-color:rgb(60, 131, 192);
+  
+            }
+            .services-content p{
+                font-size:15px;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 5px;
+                margin-right: 5px;
+                line-height: 2rem;
+            }
+            
+        
+    
+        
